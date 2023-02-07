@@ -1,0 +1,7 @@
+mkdocs
+mkdocs-material
+mkdocs-git-revision-date-localized-plugin
+mkdocs-minify-plugin
+mkdocs-redirects
+mkdocs-render-swagger-plugin
+MarkupSafe==2.0.1
