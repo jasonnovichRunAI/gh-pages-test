@@ -28,5 +28,7 @@ To get support use the following channels:
 
 * On the bottom right of this page, use the _Help_ widget.
 
+* GH Pages test site.
+
 
 
