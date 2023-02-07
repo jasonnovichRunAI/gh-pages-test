@@ -1,5 +1,5 @@
 site_name: Run:ai Documentation Library
-site_url: https://docs.run.ai/
+# site_url: https://docs.run.ai/
 copyright: Copyright © 2020 - 2023 Run:ai
 repo_url: https://github.com/run-ai/docs/
 docs_dir: docs 
