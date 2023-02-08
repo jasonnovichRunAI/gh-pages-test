@@ -7,9 +7,9 @@ The Run:ai documentation is targeting three personas:
 
 * Run:ai Administrator - Responsible for the setup and the day-to-day administration of the product. Administrator documentation can be found [here](./admin/overview-administrator.md).
 
-* Researcher - Using Run:ai to submit Jobs. Researcher documentation can be found [here](./Researcher/overview-researcher.md).
+* Researcher - Uses Run:ai to submit Jobs. Researcher documentation can be found [here](./Researcher/overview-researcher.md).
 
-* Developer - Using various APIs to manipulate Jobs and integrate with other systems. Developer documentation can be found [here](./developer/overview-developer.md).
+* Developer - Uses various APIs to manipulate Jobs and integrate with other systems. Developer documentation can be found [here](./developer/overview-developer.md).
 
 ## How to get support
 
@@ -20,8 +20,6 @@ To get support use the following channels:
 * Or submit a ticket by clicking the button below:
 
 [Submit a Ticket](https://runai.secure.force.com/casesupport/CreateCaseForm){target=_blank .md-button .md-button--primary }
-
-
 
 ## Community 
 
@@ -65,3 +63,6 @@ The following images are used throughout the documentation:
 | [gcr.io/run-ai-demo/example-triton-client](https://gcr.io/run-ai-demo/example-triton-client){target=_blank} and  [gcr.io/run-ai-demo/example-triton-server](https://gcr.io/run-ai-demo/example-triton-server){target=_blank} |  Basic Inference | [https://github.com/run-ai/models/tree/main/models/triton](https://github.com/run-ai/models/tree/main/models/triton){target=_blank} |
 
 
+do not touch this
+cannot
+will not
