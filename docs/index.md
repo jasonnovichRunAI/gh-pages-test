@@ -66,3 +66,4 @@ The following images are used throughout the documentation:
 do not touch this
 cannot
 will not
+Changes
