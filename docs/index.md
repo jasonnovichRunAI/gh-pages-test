@@ -63,7 +63,7 @@ The following images are used throughout the documentation:
 | [gcr.io/run-ai-demo/example-triton-client](https://gcr.io/run-ai-demo/example-triton-client){target=_blank} and  [gcr.io/run-ai-demo/example-triton-server](https://gcr.io/run-ai-demo/example-triton-server){target=_blank} |  Basic Inference | [https://github.com/run-ai/models/tree/main/models/triton](https://github.com/run-ai/models/tree/main/models/triton){target=_blank} |
 
 
-do not touch this
-cannot
+don't touch this
+can't
 will not
 Changes
