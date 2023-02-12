@@ -1,5 +1,6 @@
 name: Linting
 on: [pull_request]
+  branches: [main]
 
 jobs:
   prose:
@@ -15,18 +16,13 @@ jobs:
       run: |
         sudo apt install wget unzip
         wget https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
-        unzip Microsoft.zip -d .github/styles
+        unzip Microsoft.zip -d .github/styles 
         wget https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
         unzip write-good.zip -d .github/styles
 
     - name: Vale
       uses: makeworld-the-better-one/vale-action@v1.3.0
-      with:
-        # Optional
-        config: https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
-
-        # Optional
-        #files: path/to/lint
+     
       env:
         # Required
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
