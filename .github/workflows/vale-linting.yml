@@ -18,6 +18,10 @@ jobs:
 
     - name: Vale Linter
       uses: errata-ai/vale-action@v2.0.1
+      with:
+        debug: true
+        files: .github
+          
 
 
       env:
