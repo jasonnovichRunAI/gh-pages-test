@@ -1,11 +1,7 @@
 # Run:ai Version 2.8
 
-I am making. some changes here. This is not for fun. would likt to shee how things are done with vale.
-Do not edit this section.
-We will see if this one works.
-It is possible that this time it will work.
-Hopefully thi time...
-again another attempt.
+Trying to lint this.
+There are enough errors in this file for fun.
 
 ## Release Date
  November 2022 
