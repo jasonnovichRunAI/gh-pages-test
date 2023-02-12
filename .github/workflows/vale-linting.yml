@@ -1,6 +1,4 @@
-# This is a basic workflow to help you get started with Actions.
-
-name: Docs-Linting
+name: Linting Review
 
 # Controls when the action will run.
 on:
@@ -19,12 +17,9 @@ jobs:
       uses: actions/checkout@master
 
     - name: Vale
-      uses: errata-ai/vale-action@v1.4.2
+      uses: errata-ai/vale-action@reviewdog
       with:
-        debug: true
-        styles: |
-          https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
-          https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
+         styles: .github/workflows/styles
 
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
