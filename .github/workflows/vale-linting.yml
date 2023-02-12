@@ -19,7 +19,7 @@ jobs:
     - name: Vale
       uses: errata-ai/vale-action@reviewdog
       with:
-         files: .github/workflows/styles/
+         styles: .github/workflows/styles
 
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
