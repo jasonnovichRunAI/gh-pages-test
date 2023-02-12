@@ -1,5 +1,6 @@
 name: Linting
 on: [pull_request]
+  branches: [main]
 
 jobs:
   prose:
@@ -21,12 +22,7 @@ jobs:
 
     - name: Vale
       uses: makeworld-the-better-one/vale-action@v1.3.0
-      with:
-        # Optional
-        # config: https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
-
-        # Optional
-        # files: path/to/lint
+     
       env:
         # Required
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
