@@ -1,6 +1,6 @@
 # Run:ai Version 2.8
 
-I am making. some changes here.
+I am making. some changes here. This is not for fun.
 Do not edit this section.
 I am not suposed to see it.
 
