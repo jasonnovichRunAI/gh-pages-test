@@ -16,10 +16,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Vale
-      uses: errata-ai/vale-action@reviewdog
-      with:
-         styles: .github/workflows/styles
+    - name: Vale Linter
+      uses: errata-ai/vale-action@v2.0.1
+
 
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
