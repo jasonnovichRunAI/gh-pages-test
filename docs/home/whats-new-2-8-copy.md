@@ -4,9 +4,7 @@ Trying to lint this.
 There are enough errors in this file for fun.
 We will have some fun if this works.
 Maybe we won't.
-do or don't.
-try again. now on commit to a pr. not working. maybe this time.
-Syntax errors aren't fun.
+do or do not.
 
 ## Release Date
  November 2022 
