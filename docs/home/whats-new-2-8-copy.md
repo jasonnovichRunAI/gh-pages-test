@@ -3,10 +3,10 @@
 Trying to lint this.
 There are enough errors in this file for fun.
 We will have some fun if this works.
-Maybe wqe will not.
-do or do not.
+Maybe we won't.
+do or don't.
 try again. now on commit to a pr. not working. maybe this time.
-Syntax errors suck.
+Syntax errors aren't fun.
 
 ## Release Date
  November 2022 
@@ -17,7 +17,7 @@ Syntax errors suck.
 
 ### Node Pools
 
-Node Pools is a new method for managing GPU and CPU resources by __grouping the resources__ into distinct pools. With node pools:
+Node Pools is a new method for managing GPU and CPU resources by **grouping the resources** into distinct pools. With node pools:
 
 * You allocate Project and Department resources from these pools to be used by Workloads. 
 * The administrator controls which workloads can use which resources, allowing an optimized utilization of resources according to more accurate customer needs. 
@@ -27,7 +27,7 @@ Node Pools is a new method for managing GPU and CPU resources by __grouping the 
 
 * The _Departments_ screen has been revamped and new functionality added, including a new and clean look and feel, and improved search and filtering capabilities.
 * The _Jobs_ screen has been split into 2 tabs for ease of use:
-    * _Current_:  (the default tab) consists of all the jobs that currently exist in the cluster. 
+    * **Current**:  (the default tab) consists of all the jobs that currently exist in the cluster. 
     * _History_:  consists of all the jobs that have been deleted from the cluster. Deleting Jobs also deletes their Log (no change).
 
 ### Installation improvements 
