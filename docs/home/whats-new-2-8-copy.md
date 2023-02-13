@@ -5,6 +5,7 @@ There are enough errors in this file for fun.
 We will have some fun if this works.
 Maybe we won't.
 do or do not.
+No contractions allowed.
 
 ## Release Date
  November 2022 
