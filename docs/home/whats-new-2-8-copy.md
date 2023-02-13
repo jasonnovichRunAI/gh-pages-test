@@ -6,6 +6,7 @@ We will have some fun if this works.
 Maybe we won't.
 do or do not.
 No contractions allowed.
+Less checkers this time around.
 
 ## Release Date
  November 2022 
