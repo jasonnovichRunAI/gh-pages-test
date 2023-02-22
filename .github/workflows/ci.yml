@@ -18,22 +18,22 @@ jobs:
       - name: action checkout
         uses: actions/checkout@v3
         uses: actions/setup-python@v4
-          with:
-            python-version: 3.x
+        with:
+          python-version: 3.x
         uses: actions/cache@v2
-          with:
-            key: ${{ github.ref }}
-            path: .cache
+        with:
+          key: ${{ github.ref }}
+          path: .cache
       
       - name: install requirements
-          run: pip install mkdocs-material
-          run: pip3 install -r requirements.txt
-          run: mkdocs gh-deploy --force
+        run: pip install mkdocs-material
+        run: pip3 install -r requirements.txt
+        run: mkdocs gh-deploy --force
 
       - name: Extract branch name
-          shell: bash
-          run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-          id: extract_branch
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
           
       - name: Deploy using mike
-          run: mike deploy --push ${{ steps.extract_branch.outputs.branch }}
+        run: mike deploy --push ${{ steps.extract_branch.outputs.branch }}
