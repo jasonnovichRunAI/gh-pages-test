@@ -10,10 +10,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Extract branch name
-      shell: bash
-      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-      id: extract_branch
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
       with:
@@ -24,4 +20,13 @@ jobs:
         path: .cache
     - run: pip3 install -r requirements.txt
     # - run: mkdocs gh-deploy --force
+     - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+        
+      - name: Deploy with mike 🚀
+        run: |
+          cd mkdocs
+          mike deploy --push ${{ steps.extract_branch.outputs.branch }}
     -run: mike deploy --push ${{ steps.extract_branch.outputs.branch }}
