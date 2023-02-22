@@ -1,7 +1,6 @@
 # Run:ai Version 2.8
 
-this is really 2.9.
-
+For realz this is 2.9.
 
 ## Release Date
  November 2022 
