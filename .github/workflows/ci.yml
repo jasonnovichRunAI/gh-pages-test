@@ -1,9 +1,8 @@
 name: ci 
 on:
   push:
-    branches:
-      - master 
-      - main
+   branches:
+   - 'v*.*'
 permissions:
   contents: write
 jobs:
