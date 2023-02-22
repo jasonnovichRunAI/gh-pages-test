@@ -2,10 +2,10 @@ name: ci
 on:
   push:
     branches:
-    - 'v*.*'
+      - master 
+      - main
 permissions:
   contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -18,12 +18,6 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
+      - run: pip install mkdocs-material
       - run: pip3 install -r requirements.txt
-      # - run: mkdocs gh-deploy --force
-       - name: Extract branch name
-          shell: bash
-          run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-          id: extract_branch
-
-        - name: Deploy with mike 🚀
-          run: mike deploy --push ${{ steps.extract_branch.outputs.branch }}
+      - run: mkdocs gh-deploy --force
