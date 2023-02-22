@@ -1,14 +1,7 @@
 # Run:ai Version 2.8
 
-Trying to lint this.
-There are enough errors in this file for fun.
-We will have some fun if this works.
-Maybe we won't.
-do or do not.
-No contractions allowed.
-Less checkers this time around.
-This is a change for 2.86.
-openShift.
+this is really 2.9.
+
 
 ## Release Date
  November 2022 
