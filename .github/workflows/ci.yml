@@ -8,14 +8,12 @@ permissions:
 
 jobs:
   deploy:
-    name: Extract branch name
-      shell: bash
-      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-      id: extract_branch
-    
-    - name: Build docs
     runs-on: ubuntu-latest
       steps:
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
