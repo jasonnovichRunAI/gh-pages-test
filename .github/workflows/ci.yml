@@ -8,10 +8,10 @@ permissions:
 
 jobs:
   deploy:
-    - name: Extract branch name
-        shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-        id: extract_branch
+    name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
     
     - name: Build docs
     runs-on: ubuntu-latest
