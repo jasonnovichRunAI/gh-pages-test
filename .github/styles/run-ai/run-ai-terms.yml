@@ -1,0 +1,12 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: error
+ignorecase: false
+action:
+  name: replace
+swap:
+  Run:ai: run:ai
+  run:AI: run:ai
+  Run:AI: run:ai
+  openshift: OpenShift
+  openShift: OpenShift

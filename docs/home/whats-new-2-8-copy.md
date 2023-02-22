@@ -8,6 +8,7 @@ do or do not.
 No contractions allowed.
 Less checkers this time around.
 This is a change for 2.86.
+openShift.
 
 ## Release Date
  November 2022 
