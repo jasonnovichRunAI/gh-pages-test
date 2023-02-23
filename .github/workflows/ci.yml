@@ -15,6 +15,7 @@ jobs:
         id: extract_branch
       - name: action checkout
         uses: actions/checkout@v3
+      - name: Python step
         uses: actions/setup-python@v4
         with:
           python-version: 3.x
