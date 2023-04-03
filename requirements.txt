@@ -4,5 +4,6 @@ mkdocs-git-revision-date-localized-plugin
 mkdocs-minify-plugin
 mkdocs-redirects
 mkdocs-render-swagger-plugin
+mkdocs-glightbox
 mike
 MarkupSafe==2.0.1
