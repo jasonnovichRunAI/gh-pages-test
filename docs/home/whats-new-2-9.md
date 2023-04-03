@@ -2,8 +2,8 @@
 
 
 For realz this is 2.9.
-Another push into the branch for automation testing of versioning.
-Another shot. next time.
+Another push into the branch for automation testing of versioning
+Another shot. next time
 
 openshift
 Openshift
@@ -97,3 +97,6 @@ HPO Jobs are now presented as a single line in the Job List rather than a separa
 |RUN-4574 |The role "Researcher Manager" is not displayed in the access control list of projects.  |
 |RUN-4554 |Users are trying to login with single-sign-on get a "review profile" page.      |
 |RUN-4464 |Single HPO (hyperparameter optimization) workload is displayed in the Job list user interface as multiple jobs (one for every pod).                                             |
+
+!!! Note
+    This is a note!
