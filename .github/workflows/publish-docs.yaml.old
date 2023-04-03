@@ -5,8 +5,8 @@ on:
     inputs:
       version:
         required: false
-        description: 'Version number from branch / "master" for latest'
-        default: "master"
+        description: 'Version number from branch / "main" for latest'
+        default: "main"
         type: string
       alias:
         required: false
@@ -43,12 +43,14 @@ jobs:
         - name: install dependencies
           run: |
            pip3 install -r requirements.txt
-        
+      
+
+
         - name: Configure Git User
           run: |
-            git config user.name "circleci-runai"
-            git config user.email "circleci-runai@run.ai"
-#            git fetch origin gh-pages --depth=1
+            git config user.name "jasonnovichrunai"
+            git config user.email "jason.novich@run.ai"
+#            git fetch origin gh-pages
         
 #         - name: deploy mkdocs latest
 # #          run: mkdocs gh-deploy --force
@@ -74,7 +76,7 @@ jobs:
             mike list
             echo "deploy new version with mike..."
             latest=""
-            if [[ "${{ inputs.version }}" == 'master' ]]; then
+            if [[ "${{ inputs.version }}" == 'main' ]]; then
               version=latest
               latest="-latest"
             else
@@ -82,9 +84,8 @@ jobs:
             fi
             echo "${version}"
             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
-            if [[ "${{ inputs.version }}" == 'master' ]]; then
+            if [[ "${{ inputs.version }}" == 'main' ]]; then
               echo "setting this version as a latest..."
               mike set-default ${{ inputs.alias }} --ignore
             fi
-
 
