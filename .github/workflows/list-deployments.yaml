@@ -2,6 +2,7 @@ name: list docs CI
 
 on:
   workflow_dispatch:
+    inputs:
       list_version:
         required: false
         description: 'List versions'
