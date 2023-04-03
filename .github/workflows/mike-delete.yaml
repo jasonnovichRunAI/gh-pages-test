@@ -68,7 +68,12 @@ jobs:
 # --title=${{ inputs.alias }}${latest}
 #          run: mike delete --push 2.9a
            
+            mike delete --push ${{ inputs.version }}
              
         - name: deploy mkdocs
           run: |
-            mike delete --push ${{ inputs.version }}
+            if [[ "${{ inputs.version }}" != 'all' ]]; then
+               mike delete --push ${{ inputs.version }}          
+            else
+               mike delete --push ${{ inputs.version }}
+            fi
