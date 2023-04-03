@@ -68,7 +68,7 @@ jobs:
 # --title=${{ inputs.alias }}${latest}
 #          run: mike delete --push 2.9a
            
-            mike delete --push ${{ inputs.version }}
+#            mike delete --push ${{ inputs.version }}
              
         - name: deploy mkdocs
           run: |
