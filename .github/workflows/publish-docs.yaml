@@ -5,8 +5,8 @@ on:
     inputs:
       version:
         required: false
-        description: 'Version number from branch / "master" for latest'
-        default: "master"
+        description: 'Version number from branch / "main" for latest'
+        default: "main"
         type: string
       alias:
         required: false
