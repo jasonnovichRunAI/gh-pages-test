@@ -5,7 +5,7 @@ on:
     inputs:
       version:
         required: false
-        description: 'Version number from branch to delete
+        description: 'Version number from branch to delete'
         default: "main"
         type: string
 #      alias:
@@ -19,9 +19,9 @@ on:
 #        default: "latest"
 #        type: string
 
-  # pull_request:
-  #   branches:
-  #     - "master"
+# pull_request:
+#   branches:
+#     - "master"
 
 jobs:
   install_dependencies_and_deploy:
