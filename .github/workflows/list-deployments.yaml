@@ -58,7 +58,6 @@ jobs:
            
              
         - name: list mkdocs
-          run: | 
-            if: [[ "${{ inputs.list_version }}" == 'true' ]]; then
-                  mike list
-            fi
+          run: |
+            mike list
+            
