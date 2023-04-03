@@ -73,7 +73,7 @@ jobs:
         - name: deploy mkdocs
           run: |
             if [[ "${{ inputs.version }}" != 'all' ]]; then
-               mike delete -- all --push    
+               mike delete --all --push    
             else
                mike delete --push ${{ inputs.version }}
             fi
