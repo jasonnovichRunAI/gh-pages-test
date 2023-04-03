@@ -1,8 +1,8 @@
 site_name: Run:ai Documentation Library
 # site_url: https://docs.run.ai/
 copyright: Copyright © 2020 - 2023 Run:ai
-repo_url: https://github.com/run-ai/docs/
-edit_uri: edit/master/docs/
+repo_url: https://github.com/jasonnovichRunAI/gh-pages-test
+edit_uri: edit/main/docs/
 docs_dir: docs 
 theme: 
   name: material
@@ -51,9 +51,9 @@ extra:
       link: https://twitter.com/runailabs
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/company/runailabs/
-  analytics:
-    provider: google
-    property: UA-122651141-1
+#  analytics:
+#    provider: google
+#    property: UA-122651141-1
   version:
     provider: mike
     default: latest
