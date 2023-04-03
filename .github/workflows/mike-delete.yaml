@@ -72,4 +72,3 @@ jobs:
         - name: deploy mkdocs
           run: |
             mike delete --push ${{ inputs.version }}
-#              
