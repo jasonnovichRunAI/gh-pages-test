@@ -48,13 +48,23 @@ extra:
     property: UA-122651141-1
   version:
     provider: mike
+    default: latest
+
 
 plugins:
+  - mike:
+      version_selector: true
+      canonical_version: latest
   - search:
       lang: en
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
+  - glightbox:
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - skip-lightbox
 
 #  - render_swagger
   - minify:
