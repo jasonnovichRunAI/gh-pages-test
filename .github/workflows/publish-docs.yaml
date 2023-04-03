@@ -5,8 +5,8 @@ on:
     inputs:
       version:
         required: false
-        description: 'Version number from branch / "master" for latest'
-        default: "master"
+        description: 'Version number from branch / "main" for latest'
+        default: "main"
         type: string
       alias:
         required: false
@@ -21,7 +21,7 @@ on:
 
   # pull_request:
   #   branches:
-  #     - "master"
+  #     - "main"
 
 jobs:
   install_dependencies_and_deploy:
@@ -53,12 +53,12 @@ jobs:
 #         - name: deploy mkdocs latest
 # #          run: mkdocs gh-deploy --force
 # #          echo "deploy new version with mike..."
-#           if: ${{ inputs.version == 'master'}}
+#           if: ${{ inputs.version == 'main'}}
 #           run: | 
 #             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}-latest
 #             mike set-default ${{ inputs.alias }} --ignore
 #         - name: deploy mkdocs version
-#           if: ${{ inputs.version != 'master' }}
+#           if: ${{ inputs.version != 'main' }}
 #           run: |
 #             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}-latest
 #            mike set-default ${{ inputs.alias }} --ignore
@@ -74,7 +74,7 @@ jobs:
             mike list
             echo "deploy new version with mike..."
             latest=""
-            if [[ "${{ inputs.version }}" == 'master' ]]; then
+            if [[ "${{ inputs.version }}" == 'main' ]]; then
               version=latest
               latest="-latest"
             else
@@ -82,7 +82,7 @@ jobs:
             fi
             echo "${version}"
             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
-            if [[ "${{ inputs.version }}" == 'master' ]]; then
+            if [[ "${{ inputs.version }}" == 'main' ]]; then
               echo "setting this version as a latest..."
               mike set-default ${{ inputs.alias }} --ignore
             fi
