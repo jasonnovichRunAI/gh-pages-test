@@ -73,3 +73,4 @@ jobs:
         - name: deploy mkdocs
           run: |
                mike delete --push ${{ inputs.alias }}
+               mike list
