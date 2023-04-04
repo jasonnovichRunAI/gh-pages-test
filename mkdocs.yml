@@ -59,8 +59,8 @@ extra:
 #    default: latest
 
 plugins:
-  - mike
-#      version_selector: true
+  - mike:
+      version_selector: false
 #      canonical_version: latest
   - search:
       lang: en

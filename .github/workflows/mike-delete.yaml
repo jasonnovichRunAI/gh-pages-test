@@ -5,23 +5,23 @@ on:
     inputs:
       version:
         required: false
-        description: 'Version number from branch / "main" for latest'
+        description: 'Version number from branch to delete'
         default: "main"
         type: string
       alias:
         required: false
-        description: 'Version alias / "latest" for latest'
+        description: 'Version or alias. Use a branch version for all docs use the alias to hide docs.'
         default: "latest"
         type: string
-      title:
-        required: false
-        description: 'Doc site dropdown menu title (version +/- latest)'
-        default: "latest"
-        type: string
+#      title:
+#        required: false
+#        description: 'Doc site dropdown menu title (version +/- latest)'
+#        default: "latest"
+#        type: string
 
-  # pull_request:
-  #   branches:
-  #     - "master"
+# pull_request:
+#   branches:
+#     - "master"
 
 jobs:
   install_dependencies_and_deploy:
@@ -68,7 +68,9 @@ jobs:
 # --title=${{ inputs.alias }}${latest}
 #          run: mike delete --push 2.9a
            
+#            mike delete --push ${{ inputs.version }}
              
         - name: deploy mkdocs
-          run: | 
-            mike delete --all
+          run: |
+               mike delete --push ${{ inputs.alias }}
+               mike list
