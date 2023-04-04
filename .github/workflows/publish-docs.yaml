@@ -6,17 +6,17 @@ on:
       version:
         required: false
         description: 'Version number from branch / "main" for latest'
-        default: "main"
+#        default: "main"
         type: string
       alias:
         required: false
         description: 'Version alias / "latest" for latest'
-        default: "latest"
+#        default: "latest"
         type: string
       title:
         required: false
         description: 'Doc site dropdown menu title (version +/- latest)'
-        default: "latest"
+#        default: "latest"
         type: string
 
   # pull_request:
