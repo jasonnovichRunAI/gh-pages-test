@@ -10,7 +10,7 @@ on:
         type: string
       alias:
         required: false
-        description: 'Version or alias. Use a branch version for all docs use the alias to hide docs.
+        description: 'Version or alias. Use a branch version for all docs use the alias to hide docs.'
         default: "latest"
         type: string
 #      title:
