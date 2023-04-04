@@ -61,7 +61,7 @@ extra:
 plugins:
   - mike:
       version_selector: false
-      canonical_version: latest
+#      canonical_version: latest
   - search:
       lang: en
   - git-revision-date-localized:
