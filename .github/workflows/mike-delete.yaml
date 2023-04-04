@@ -8,11 +8,11 @@ on:
         description: 'Version number from branch to delete'
         default: "main"
         type: string
-#      alias:
-#        required: false
-#        description: 'Version alias / "latest" for latest'
-#        default: "latest"
-#        type: string
+      alias:
+        required: false
+        description: 'Version or alias. Use a branch version for all docs use the alias to hide docs.
+        default: "latest"
+        type: string
 #      title:
 #        required: false
 #        description: 'Doc site dropdown menu title (version +/- latest)'
@@ -72,4 +72,4 @@ jobs:
              
         - name: deploy mkdocs
           run: |
-               mike delete --push ${{ inputs.version }}
+               mike delete --push ${{ inputs.alias }}
