@@ -60,7 +60,7 @@ extra:
 
 plugins:
   - mike:
-      version_selector: true
+      version_selector: false
 #      canonical_version: latest
   - search:
       lang: en
