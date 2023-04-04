@@ -56,7 +56,7 @@ extra:
 #    property: UA-122651141-1
   version:
     provider: mike
-    default: latest
+#    default: latest
 
 plugins:
   - mike:
