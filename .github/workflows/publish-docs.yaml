@@ -67,24 +67,26 @@ jobs:
 #              fi
 # --title=${{ inputs.alias }}${latest}
 #          run: mike delete --push 2.9a
+
+# THIS IS GOOD CODE!!!
+#            mike list
+#            echo "deploy new version with mike..."
+#            latest=""
+#            if [[ "${{ inputs.version }}" == 'main' ]]; then
+#              version=latest
+#              latest="-latest"
+#            else
+#              version=${{ inputs.version }}
+#            fi
+#            echo "${version}"
+#            mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
+#            if [[ "${{ inputs.version }}" == 'main' ]]; then
+#              echo "setting this version as a latest..."
+#              mike set-default ${{ inputs.alias }} --ignore
+#            fi
            
              
         - name: deploy mkdocs
           run: | 
-            mike list
-            echo "deploy new version with mike..."
-            latest=""
-            if [[ "${{ inputs.version }}" == 'main' ]]; then
-              version=latest
-              latest="-latest"
-            else
-              version=${{ inputs.version }}
-            fi
-            echo "${version}"
             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
-            if [[ "${{ inputs.version }}" == 'main' ]]; then
-              echo "setting this version as a latest..."
-              mike set-default ${{ inputs.alias }} --ignore
-            fi
-
 
