@@ -21,7 +21,7 @@ on:
       latest:
         required: false
         description: 'Mark version version as latest'
-        type: boolean  
+        type: string  
 
   # pull_request:
   #   branches:
@@ -95,5 +95,5 @@ jobs:
             git fetch origin gh-pages --depth=1
             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
         - name: latest version
-          if ${{ inputs.latest == 'true' }}
+          if ${{ inputs.latest == 'latest' }}
           run: mike deploy --push --update-aliases ${{ inputs.alias }} latest
