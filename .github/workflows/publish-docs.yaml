@@ -96,8 +96,9 @@ jobs:
             git fetch origin gh-pages --depth=1
             mike deploy --push ${{ inputs.version }} ${{ inputs.latest }} --title=${{ inputs.title }}
             mike list
-          if: ${{ inputs.latest != 'latest'}}
+
         - name: deploy a version of mkdocs  
+          if: ${{ inputs.latest != 'latest'}}
           run: |
             git fetch origin gh-pages --depth=1
             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
