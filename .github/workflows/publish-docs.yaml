@@ -18,6 +18,10 @@ on:
         description: 'Doc site dropdown menu title (version +/- latest)'
 #        default: "latest"
         type: string
+      latest:
+        required: false
+        description: 'Mark version version as latest'
+        type: boolean  
 
   # pull_request:
   #   branches:
@@ -90,3 +94,5 @@ jobs:
           run: |
             git fetch origin gh-pages --depth=1
             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
+            if [[ "${{ inputs.latest }}" == true]]; then
+              mike deploy --push --update-aliases ${{ inputs.alias }} latest
