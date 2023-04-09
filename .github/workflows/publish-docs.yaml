@@ -96,5 +96,5 @@ jobs:
             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
         - name: latest_version
             if ${{ inputs.latest }}" == true
-           run: 
+           run: | 
               mike deploy --push --update-aliases ${{ inputs.alias }} latest
