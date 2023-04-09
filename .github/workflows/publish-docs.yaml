@@ -95,6 +95,6 @@ jobs:
             git fetch origin gh-pages --depth=1
             mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
         - name: latest version
-          if ${{ inputs.latest == true }}
+          if ${{ inputs.latest == 1 }}
            run: | 
               mike deploy --push --update-aliases ${{ inputs.alias }} latest
