@@ -88,5 +88,5 @@ jobs:
              
         - name: deploy mkdocs
           run: | 
-            mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
-
+#            mike deploy --push ${{ inputs.version }} ${{ inputs.alias }} --title=${{ inputs.title }}
+            mike deploy --push ${{ inputs.version }} ${{ inputs.alias }}
