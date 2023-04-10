@@ -99,11 +99,12 @@ runai submit --job-name-prefix -i gcr.io/run-ai-demo/quickstart -g 1
 
 > The duration, after which a finished job is automatically deleted (e.g. 5s, 2m, 3h).
 
-<!-- Start of common content from snippets/common-submit-cli-commands.md -->
+***Start of common content from snippets/common-submit-cli-commands.md***
 
 --8<-- "snippets/common-submit-cli-commands.md"
 
-<!-- END of common content from snippets/common-submit-cli-commands.md -->
+***END of common content from snippets/common-submit-cli-commands.md***
+
 ## Output
 
 The command will attempt to submit a Job. You can follow up on the Job by running `runai list jobs` or `runai describe job <job-name>`.
