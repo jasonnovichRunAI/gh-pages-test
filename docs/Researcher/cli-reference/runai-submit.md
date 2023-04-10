@@ -101,7 +101,7 @@ runai submit --job-name-prefix -i gcr.io/run-ai-demo/quickstart -g 1
 
 ***Start of common content from snippets/common-submit-cli-commands.md***
 
---8<-- "snippets/common-submit-cli-commands.md"
+--8<-- "common-submit-cli-commands.md"
 
 ***END of common content from snippets/common-submit-cli-commands.md***
 
