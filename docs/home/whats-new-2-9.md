@@ -1,5 +1,7 @@
 # Run:ai Version 2.9
 
+added a markdown error here 
+
 
 For realz this is 2.9.
 Another push into the branch for automation testing of versioning
@@ -41,6 +43,8 @@ Node Pools is a new method for managing GPU and CPU resources by **grouping the 
     * _History_:  consists of all the jobs that have been deleted from the cluster. Deleting Jobs also deletes their Log (no change).
 
 ### Installation improvements 
+
+
 
 The Run:ai user interface [requires a URL address](../admin/runai-setup/cluster-setup/cluster-prerequisites.md#cluster-url) to the Kubernetes cluster. The requirement is relevant for SaaS installation only. 
 
