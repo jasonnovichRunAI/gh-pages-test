@@ -2,8 +2,7 @@ name: reviewdog
 on: 
   pull_request:
     types: [opened, synchronize, reopened]
-    branches:
-      [*]
+    branches: [*]
 
 jobs:
   vale:
