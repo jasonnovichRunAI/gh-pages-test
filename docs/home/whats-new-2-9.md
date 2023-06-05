@@ -1,6 +1,7 @@
 # Run:ai Version 2.9
 
-
+*     markdown error
+*     markdown error 2
 For realz this is 2.9.
 Another push into the branch for automation testing of versioning
 Another shot. next time
@@ -8,7 +9,7 @@ Another shot. next time
 openshift
 Openshift
 
-GPU
+**GPU**
 
 run:AI
 

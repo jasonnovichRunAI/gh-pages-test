@@ -1,4 +1,4 @@
-name: delete published docs CI 
+name: delete all published docs CI 
 
 on:
   workflow_dispatch:
@@ -6,15 +6,13 @@ on:
       version:
         required: false
         description: 'Version number from branch to delete'
-        default: "main"
+#        default: "main"
         type: string
-
       alias:
         required: false
         description: 'Version or alias. Use a branch version for all docs use the alias to hide docs.'
-        default: "latest"
+#        default: "latest"
         type: string
-
 #      title:
 #        required: false
 #        description: 'Doc site dropdown menu title (version +/- latest)'
@@ -74,13 +72,5 @@ jobs:
              
         - name: deploy mkdocs
           run: |
-
-            if [[ "${{ inputs.version }}" != 'all' ]]; then
-               mike delete --all --push    
-            else
-               mike delete --push ${{ inputs.version }}
-            fi
-
-               mike delete --push ${{ inputs.alias }}
+               mike delete --push --all
                mike list
-
