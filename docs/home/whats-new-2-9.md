@@ -13,7 +13,7 @@ Openshift
 
 **GPU**
 
-run:AI
+**run:AI**
 
 run.ai
 
