@@ -2,7 +2,8 @@
 
 added a markdown error here 
 
-
+*    another markdown error
+*    
 For realz this is 2.9.
 Another push into the branch for automation testing of versioning
 Another shot. next time
