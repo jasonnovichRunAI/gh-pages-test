@@ -68,4 +68,4 @@ can't
 will not
 Changes
 
---8<-- "../bug-fixes/README.md"
+--8<-- "./bug-fixes/README.md"
