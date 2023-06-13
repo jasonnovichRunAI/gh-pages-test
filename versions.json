@@ -1,1 +1,1 @@
-[{"version": "v2.10", "title": "", "aliases": ["2.10-alias"]}, {"version": "v2.9-sub-mod", "title": "2.9-sub-mod", "aliases": ["2.9-sub-mod"]}, {"version": "v2.9", "title": "2.9", "aliases": ["latest"]}, {"version": "v2.8", "title": "2.8", "aliases": ["2.8-alias"]}]
+[{"version": "v2.10", "title": "", "aliases": ["2.10-alias"]}, {"version": "v2.9-sub-mod", "title": "2.9-submod", "aliases": ["2.9-sub-mod"]}, {"version": "v2.9", "title": "2.9", "aliases": ["latest"]}, {"version": "v2.8", "title": "2.8", "aliases": ["2.8-alias"]}]
