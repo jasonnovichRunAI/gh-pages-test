@@ -69,8 +69,8 @@ plugins:
   - mike:
       version_selector: true
   - include-markdown:
-      opening_tag: "{!"
-      closing_tag: "!}"
+      opening_tag: "{%"
+      closing_tag: "%}"
       encoding: ascii
       preserve_includer_indent: false
       dedent: true
