@@ -1,8 +1,11 @@
 site_name: Run:ai Documentation Library
+
 # site_url: https://docs.run.ai/
-site_url: https://jasonnovichrunai.github.io/gh-pages-test/
+
+site_url: https://jasonnovichrunai.github.io/gh-pages-test
 copyright: Copyright © 2020 - 2023 Run:ai
-repo_url: https://github.com/run-ai/docs/
+repo_url: https://github.com/jasonnovichRunAI/gh-pages-test
+edit_uri: edit/main/docs/
 docs_dir: docs 
 theme: 
   name: material
@@ -16,15 +19,21 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - search.suggest
+    - content.action.edit
+  icon:
+    edit: material/pencil 
+    view: material/eye
 extra_css:
   - stylesheets/extra.css
 # strict: true   
  
 markdown_extensions:
+#  - markdown_include.include
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path: docs/docs
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -32,6 +41,7 @@ markdown_extensions:
   - admonition
   - attr_list
   - meta
+  - tables
   - toc:
       permalink: True 
   - pymdownx.emoji:
@@ -43,17 +53,26 @@ extra:
       link: https://twitter.com/runailabs
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/company/runailabs/
-  analytics:
-    provider: google
-    property: UA-122651141-1
+#  analytics:
+#    provider: google
+#    property: UA-122651141-1
   version:
     provider: mike
     default: latest
 
 
+
+#    default: latest
+
+
 plugins:
   - mike:
       version_selector: true
+
+
+
+
+
       canonical_version: null
   - search:
       lang: en
