@@ -68,4 +68,8 @@ can't
 will not
 Changes
 
---8<-- "bug-fixes/README.md"
+{%
+   include-markdown "bug-fixes/README.md"
+   start="<!--intro-start-->"
+   end="<!--intro-end-->"
+%}

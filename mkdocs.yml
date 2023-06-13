@@ -28,7 +28,14 @@ extra_css:
 # strict: true   
  
 markdown_extensions:
-#  - markdown_include.include
+  - markdown_include.include:
+      opening_tag: "{!"
+      closing_tag: "!}"
+      encoding: ascii
+      preserve_includer_indent: false
+      dedent: true
+      trailing_newlines: false
+      comments: false
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite

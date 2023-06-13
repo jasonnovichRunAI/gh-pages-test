@@ -6,5 +6,6 @@ mkdocs-redirects
 mkdocs-render-swagger-plugin
 mkdocs-glightbox
 pymdown-extensions
+mkdocs-include-markdown-plugin
 MarkupSafe==2.0.1
 mike
