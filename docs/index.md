@@ -67,3 +67,5 @@ don't touch this
 can't
 will not
 Changes
+
+--8<-- "../bug-fixes/README.md"
