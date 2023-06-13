@@ -25,7 +25,6 @@ theme:
     view: material/eye
 extra_css:
   - stylesheets/extra.css
-  
 # strict: true   
  
 markdown_extensions:
@@ -59,6 +58,8 @@ extra:
 #    property: UA-122651141-1
   version:
     provider: mike
+    default: latest
+
 
 
 #    default: latest
@@ -69,8 +70,10 @@ plugins:
       version_selector: true
 
 
-#      canonical_version: latest
 
+
+
+      canonical_version: null
   - search:
       lang: en
   - git-revision-date-localized:
@@ -81,6 +84,7 @@ plugins:
       draggable: true
       skip_classes:
         - skip-lightbox
+
 #  - render_swagger
   - minify:
       minify_html: true
