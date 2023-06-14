@@ -34,7 +34,7 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets:
-      base_path: docs/docs
+      base_path: docs
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -156,6 +156,7 @@ nav:
       - 'Whats New 2022' : 'home/whats-new-2022.md'
       - 'Whats New 2021' : 'home/whats-new-2021.md'
       - 'Whats New 2020' : 'home/whats-new-2020.md'
+    - 'Changelog' : 'bugfixes/README.md'
     - 'Data Privacy' : 'home/data-privacy-details.md'
   - 'Administrator' :
     - 'Overview' : 'admin/overview-administrator.md'
