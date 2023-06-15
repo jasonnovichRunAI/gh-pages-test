@@ -5,6 +5,6 @@ mkdocs-minify-plugin
 mkdocs-redirects
 mkdocs-render-swagger-plugin
 mkdocs-glightbox
-pymdownx-extensions
+pymdown-extensions
 MarkupSafe==2.0.1
 mike
