@@ -1,0 +1,3 @@
+[submodule "bug-fixes"]
+	path = docs/bugfixes
+	url = https://github.com/jasonnovichRunAI/bug-fixes.git

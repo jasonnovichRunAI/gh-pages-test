@@ -1,4 +1,7 @@
 site_name: Run:ai Documentation Library
+
+# site_url: https://docs.run.ai/
+
 site_url: https://jasonnovichrunai.github.io/gh-pages-test
 copyright: Copyright © 2020 - 2023 Run:ai
 repo_url: https://github.com/jasonnovichRunAI/gh-pages-test
@@ -31,7 +34,7 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets:
-      base_path: docs/docs
+      base_path: docs
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -56,12 +59,18 @@ extra:
 #    property: UA-122651141-1
   version:
     provider: mike
+
+
 #    default: latest
+
 
 plugins:
   - mike:
       version_selector: true
+
+
 #      canonical_version: latest
+
   - search:
       lang: en
   - git-revision-date-localized:
@@ -141,12 +150,15 @@ nav:
     - 'Overview': 'index.md'
     - 'System Components' : 'home/components.md'
     - 'Whats New' :
-      - 'Version 2.10' : 'home/whats-new-2-10.md'
       - 'Version 2.9' : 'home/whats-new-2-9.md'
       - 'Version 2.8' : 'home/whats-new-2-8.md'
       - 'Whats New 2022' : 'home/whats-new-2022.md'
       - 'Whats New 2021' : 'home/whats-new-2021.md'
       - 'Whats New 2020' : 'home/whats-new-2020.md'
+    - 'Changelog' : 
+      - 'About' : 'bugfixes/README.md'
+      - 'Version 2.12' : 'bugfixes/fixes-2-12.md'
+      - 'Version 2.9' : 'bugfixes/fixes-2-9.md'
     - 'Data Privacy' : 'home/data-privacy-details.md'
   - 'Administrator' :
     - 'Overview' : 'admin/overview-administrator.md'
@@ -187,7 +199,6 @@ nav:
       - 'Configuration' : 
         - 'Overview' : 'admin/runai-setup/config/overview.md'
         - 'Set Node Roles' : 'admin/runai-setup/config/node-roles.md'
-
         - 'Review Kubernetes Access provided to Run:ai' : 'admin/runai-setup/config/access-roles.md'
         - 'External access to Containers' : 'admin/runai-setup/config/allow-external-access-to-containers.md'
         - 'User Identity in Container' : 'admin/runai-setup/config/non-root-containers.md'
