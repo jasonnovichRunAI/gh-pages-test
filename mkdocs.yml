@@ -158,8 +158,8 @@ nav:
       - 'Whats New 2020' : 'home/whats-new-2020.md'
     - 'Changelog' : 
       - 'About' : 'bugfixes/README.md'
-      - 'Version 2.9' : 'bugfixes/fixes-2-9.md'
       - 'Version 2.12' : 'bugfixes/fixes-2-12.md'
+      - 'Version 2.9' : 'bugfixes/fixes-2-9.md'
     - 'Data Privacy' : 'home/data-privacy-details.md'
   - 'Administrator' :
     - 'Overview' : 'admin/overview-administrator.md'
