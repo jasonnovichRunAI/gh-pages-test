@@ -1,5 +1,12 @@
---8<-- "/bugfixes/fixes-2-12.md"
+# Changelog list
 
---8<-- "/bugfixes/fixes2-10.md"
+## Version 2.12
+--8<-- "bugfixes/fixes-2-12.md:2"
 
---8<-- "/bugfixes/fixes-2-9.md"
+## Version 2.10
+
+--8<-- "bugfixes/fixes2-10.md:2"
+
+## Version 2.9
+
+--8<-- "bugfixes/fixes-2-9.md:2"
