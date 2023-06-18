@@ -2,7 +2,7 @@ site_name: Run:ai Documentation Library
 
 # site_url: https://docs.run.ai/
 
-site_url: https://jasonnovichrunai.github.io/gh-pages-test
+# site_url: https://jasonnovichrunai.github.io/gh-pages-test
 copyright: Copyright © 2020 - 2023 Run:ai
 repo_url: https://github.com/jasonnovichRunAI/gh-pages-test
 edit_uri: edit/main/docs/
@@ -156,9 +156,10 @@ nav:
       - 'Whats New 2021' : 'home/whats-new-2021.md'
       - 'Whats New 2020' : 'home/whats-new-2020.md'
     - 'Changelog' : 
-      - 'About' : 'bugfixes/README.md'
+      - 'About' : 'bugfixes/index.md'
       - 'Version 2.12' : 'bugfixes/fixes-2-12.md'
       - 'Version 2.9' : 'bugfixes/fixes-2-9.md'
+      - 'Changelog list' : 'home/fix-versions.md'
     - 'Data Privacy' : 'home/data-privacy-details.md'
   - 'Administrator' :
     - 'Overview' : 'admin/overview-administrator.md'
