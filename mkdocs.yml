@@ -159,6 +159,7 @@ nav:
       - 'About' : 'bugfixes/README.md'
       - 'Version 2.12' : 'bugfixes/fixes-2-12.md'
       - 'Version 2.9' : 'bugfixes/fixes-2-9.md'
+      - 'Changelog list' : 'docs/home/fix-versions.md'
     - 'Data Privacy' : 'home/data-privacy-details.md'
   - 'Administrator' :
     - 'Overview' : 'admin/overview-administrator.md'
