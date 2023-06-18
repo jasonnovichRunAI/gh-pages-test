@@ -74,4 +74,4 @@ Changes
 <!-- -8<-- "bugfixes/fixes-2-12.md:25:30" - this is an "include statement" for a file with line numbers" -->
 
 <!-- want to try to reference a heading in a submodule's file -->
-This is a reference to part of a file in the submodule sof [2.12.11](bugfixes/fixes-2-12.md/#version-21211).
+This is a reference to part of a file in the submodule sof [2.12.11](bugfixes/fixes-2-12.md#version-21211).
