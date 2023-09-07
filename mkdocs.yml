@@ -154,6 +154,7 @@ nav:
       - 'Whats New 2020' : 'home/whats-new-2020.md'
     - 'Changelog' : 
       - 'About' : 'bugfixes/index.md'
+      - 'Version 2.13' : 'bugfixes/fixes-2-13.md'
       - 'Version 2.12' : 'bugfixes/fixes-2-12.md'
       - 'Version 2.9' : 'bugfixes/fixes-2-9.md'
     - 'Data Privacy' : 'home/data-privacy-details.md'
