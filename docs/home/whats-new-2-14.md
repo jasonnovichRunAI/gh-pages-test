@@ -4,7 +4,7 @@
 
 ### Release date
 
-August 2023
+September 19 2023
 
 <!-- This version contains features and fixes from previous versions. Refer to the prior versions for specific features and fixes. For information about features, functionality, and fixed issues in previous versions see:
 
