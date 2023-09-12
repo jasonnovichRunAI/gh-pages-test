@@ -1,17 +1,17 @@
-# What’s New
+# Recent releases
 
 Overview of the new features, enhancements, and important fixes introduced in the most recent releases of Run:ai.
 
 If you have questions about any of these features, please feel free to contact Run:ai support.
 
-* [What's new 2.14 Release notes September 7, 2023](whats-new-2-14.md)
+* [Version 2.14 Release notes September 7, 2023](whats-new-2-14.md)
   
       * [New features](whats-new-2-14.md#new-features)
       * [Improvements](whats-new-2-14.md#improvements)
       * [Known issues](whats-new-2-14.md#known-issues)
       * [Fixed issues](whats-new-2-14.md#fixed-issues)
 
-* [What's new 2.13](whats-new-2-13.md#version-2130)
+* [Version 2.13](whats-new-2-13.md#version-2130)
 
       * **User Interface**
           * [Dashboards](whats-new-2-13.md#dashboards)
@@ -35,6 +35,6 @@ If you have questions about any of these features, please feel free to contact R
           * [Known issues](whats-new-2-13.md#known-issues)
           * [Fixed issues](whats-new-2-13.md#fixed-issues)
   
-* [What's new 2.12](whats-new-2-12.md)
+* [Version 2.12](whats-new-2-12.md)
 
-* [What's new 2.10](whats-new-2-10.md)
+* [Version 2.10](whats-new-2-10.md)
