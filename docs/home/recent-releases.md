@@ -50,8 +50,6 @@ If you have questions about any of these features, please feel free to contact R
     * [Integrations](whats-new-2.13.md#integrations)
     * [Compatibility](whats-new-2.13.md#compatibility)
     * [Installation](whats-new-2.13.md#installation)
-    * [Known issues](whats-new-2-13.md#known-issues)
-    * [Fixed issues](whats-new-2-13.md#fixed-issues)
 
 ???+ info "Known and fixed issues by version"
 
