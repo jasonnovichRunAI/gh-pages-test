@@ -4,6 +4,13 @@ Overview of the new features, enhancements, and important fixes introduced in th
 
 If you have questions about any of these features, please feel free to contact Run:ai support.
 
+## Version 2.15 October 1, 2023
+
+* [New features](whats-new-2-15.md#new-features)
+* [Improvements](whats-new-2-15.md#improvements)
+* [Known issues](whats-new-2-15.md#known-issues)
+* [Fixed issues](whats-new-2-15.md#fixed-issues)
+
 ## Version 2.14 September 19, 2023
   
 * [New features](whats-new-2-14.md#new-features)
