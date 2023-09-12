@@ -35,9 +35,8 @@ If you have questions about any of these features, please feel free to contact R
 * [Integrations](whats-new-2.13.md#integrations)
 * [Compatibility](whats-new-2.13.md#compatibility)
 * [Installation](whats-new-2.13.md#installation)
+
+### Known and fixed issues by version
+
 * [Known issues](whats-new-2-13.md#known-issues)
 * [Fixed issues](whats-new-2-13.md#fixed-issues)
-
-* [Version 2.12](whats-new-2-12.md)
-
-* [Version 2.10](whats-new-2-10.md)
