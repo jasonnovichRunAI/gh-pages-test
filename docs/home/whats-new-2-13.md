@@ -1,5 +1,7 @@
 # Run:ai version 2.13 July 15, 2023
 
+## Release content
+
 * [Dashboards](whats-new-2-13.md#dashboards)
 * [Metrics](whats-new-2.13.md#metrics)
 * [Projects](whats-new-2.13.md#projects)
@@ -16,14 +18,6 @@
 * [Installation](whats-new-2.13.md#installation)
 * [Known issues](whats-new-2-13.md#known-issues)
 * [Fixed issues](whats-new-2-13.md#fixed-issues)
-
-## Known and fixed issues by version
-
-* [2.13.56](../bugfixes/fixes-2-13.md#version-21356)
-* [2.13.11](../bugfixes/fixes-2-13.md#version-21311)
-* [2.13.07](../bugfixes/fixes-2-13.md#version-2137)
-* [2.13.4](../bugfixes/fixes-2-13.md#version-2134)
-* [2.13.0](../bugfixes/fixes-2-13.md#version-2130)
 
 ### Dashboards
 <!-- RUN9530/9577 New Dashboard for Quota management -->
@@ -115,3 +109,11 @@ The association between workspaces and node pools is done using *Compute resourc
 * From Run:ai 2.12 and above, the control-plane installation has been simplified and no longer requires the creation of a *backend values* file. Instead, install directly using `helm` as described in [Install the Run:ai Control Plane](../admin/runai-setup/self-hosted/k8s/backend.md#install-the-control-plane).
 
 * From Run:ai 2.12 and above, the air-gapped, control-plane installation now generates a `custom-env.yaml` values file during the [preparation](../admin/runai-setup/self-hosted/k8s/preparations.md#prepare-installation-artifacts) stage. This is used when installing the [control-plane](../admin/runai-setup/self-hosted/k8s/backend.md#install-the-control-plane).
+
+## Known and fixed issues by version
+
+* [2.13.56](../bugfixes/fixes-2-13.md#version-21356)
+* [2.13.11](../bugfixes/fixes-2-13.md#version-21311)
+* [2.13.07](../bugfixes/fixes-2-13.md#version-2137)
+* [2.13.4](../bugfixes/fixes-2-13.md#version-2134)
+* [2.13.0](../bugfixes/fixes-2-13.md#version-2130)
