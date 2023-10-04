@@ -98,13 +98,6 @@ whats-new-2-14.md:4:27
 --8<-- "home/whats-new-2-14.md:4:69"
 -->
 
+## Known and fixed issues by version
 
-## Known issues
-
-| Internal ID | Description  |
-| ---------------------------- | ---- |
-
-## Fixed issues
-
-| Internal ID | Description  |
-| ---------------------------- | ---- |
+TBD

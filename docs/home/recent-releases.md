@@ -14,7 +14,7 @@ If you have questions about any of these features, please feel free to contact R
   
 * [New features](whats-new-2-14.md#new-features)
 * [Improvements](whats-new-2-14.md#improvements)
-* [Known and Fixed issues](whats-new-2-14.md)
+* [Known and Fixed issues](whats-new-2-14.md#known-and-fixed-issues-by-version)
 
 ## Version 2.13 August 15, 2023
 
