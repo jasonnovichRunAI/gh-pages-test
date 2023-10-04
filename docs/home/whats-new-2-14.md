@@ -25,7 +25,7 @@ TODO Add RBAC old--new conversion table here. -->
 <!-- RUN-9868/RUN-10087 support per user scheduling events notifications (slack/email) -->
 * We are pleased to announce new functionality where users can now receive notifications from scheduling events. Researchers using Run:ai can now receive notifications via email and is configured so that each user will only get the events relevant to their workloads. For more information, see [email notifications](../admin/researcher-setup/email-messaging.md#email-notifications).
 
-#### Improvements
+## Improvements
 
 ### Ephemeral volumes
 <!--RUN-9958/RUN-10061 Ephemeral volumes in workspaces -->
@@ -60,12 +60,6 @@ TODO Add RBAC old--new conversion table here. -->
               4. Enter a *Value* and *Toleration seconds* (optional).
         5. When your form is complete press *Deploy*.
 
-#### Known issues
+## Known and fixed issues by version
 
-| Internal ID | Description  |
-| ---------------------------- | ---- |
-
-#### Fixed issues
-
-| Internal ID | Description  |
-| ---------------------------- | ---- |
+* [2.14.0](../bugfixes/fixes-2-14.md)
