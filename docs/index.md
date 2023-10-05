@@ -1,4 +1,4 @@
-# Run:ai Documentation Library 
+# Run:ai Documentation Library
 
 Welcome to the Run:ai documentation area. For an introduction about what is the Run:ai Platform see [Run:ai platform](https://www.run.ai/platform/){target=_blank} on the run.ai website.
 
@@ -27,7 +27,6 @@ Run:ai provides its customers with access to the _Run:ai Customer Community port
 [Customer Community Portal](https://runai-support.force.com/community/s/){target=_blank .md-button .md-button--primary }
 
 Reach out to customer support for credentials.
-
 
 ## Run:ai Cloud Status Page
 

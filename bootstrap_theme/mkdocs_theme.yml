@@ -1,0 +1,6 @@
+# Config options for 'bootstrap' theme
+
+extends: mkdocs
+
+hljs_style: github
+
