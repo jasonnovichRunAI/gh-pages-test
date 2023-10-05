@@ -10,8 +10,7 @@
 
 ![architecture](img/architecture.png)
 
-
-## The Run:ai Cluster 
+## The Run:ai Cluster
 
 The Run:ai Cluster contains:
 

@@ -1,6 +1,4 @@
-# Run:ai version 2.15
-
-# Run:ai version 2.15 - September 28, 2023
+# Run:ai version 2.15 - October 3, 2023
 
 ## New Features
 

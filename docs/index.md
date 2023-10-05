@@ -1,12 +1,6 @@
-# Run:ai Documentation Library -  v2.10 changed here!!
-
-added a markdown error here 
-
-
-
+# Run:ai Documentation Library 
 
 Welcome to the Run:ai documentation area. For an introduction about what is the Run:ai Platform see [Run:ai platform](https://www.run.ai/platform/){target=_blank} on the run.ai website.
-
 
 The Run:ai documentation is targeting three personas:
 
@@ -26,7 +20,7 @@ To get support use the following channels:
 
 [Submit a Ticket](https://runai.secure.force.com/casesupport/CreateCaseForm){target=_blank .md-button .md-button--primary }
 
-## Community 
+## Community
 
 Run:ai provides its customers with access to the _Run:ai Customer Community portal_ in order to submit tickets, track ticket progress and update support cases.
 
@@ -66,9 +60,3 @@ The following images are used throughout the documentation:
 | [gcr.io/run-ai-demo/quickstart-x-forwarding](https://gcr.io/run-ai-demo/quickstart-x-forwarding){target=_blank} | Use X11 forwarding from Docker image | [https://github.com/run-ai/docs/tree/master/quickstart/x-forwarding](https://github.com/run-ai/docs/tree/master/quickstart/x-forwarding){target=_blank} | 
 | [gcr.io/run-ai-demo/pycharm-demo](https://gcr.io/run-ai-demo/pycharm-demo){target=_blank} | Image used for tool integration (PyCharm and VSCode) | [https://github.com/run-ai/docs/tree/master/quickstart/python%2Bssh](https://github.com/run-ai/docs/tree/master/quickstart/python%2Bssh){target=_blank} |
 | [gcr.io/run-ai-demo/example-triton-client](https://gcr.io/run-ai-demo/example-triton-client){target=_blank} and  [gcr.io/run-ai-demo/example-triton-server](https://gcr.io/run-ai-demo/example-triton-server){target=_blank} |  Basic Inference | [https://github.com/run-ai/models/tree/main/models/triton](https://github.com/run-ai/models/tree/main/models/triton){target=_blank} |
-
-
-don't touch this
-can't
-will not
-Changes
