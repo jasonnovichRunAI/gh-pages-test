@@ -3,6 +3,8 @@
 ## New Features
 
 <!-- RUN-10221/RUN-10426 Projects V2 - User will be able to export a CSV report - NEW FEATURE -->
+### CSV Download
+
 * Added new functionality to download a report all the data in the table for the following:
     * Projects
     * Departments
