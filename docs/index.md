@@ -60,3 +60,45 @@ The following images are used throughout the documentation:
 | [gcr.io/run-ai-demo/quickstart-x-forwarding](https://gcr.io/run-ai-demo/quickstart-x-forwarding){target=_blank} | Use X11 forwarding from Docker image | [https://github.com/run-ai/docs/tree/master/quickstart/x-forwarding](https://github.com/run-ai/docs/tree/master/quickstart/x-forwarding){target=_blank} | 
 | [gcr.io/run-ai-demo/pycharm-demo](https://gcr.io/run-ai-demo/pycharm-demo){target=_blank} | Image used for tool integration (PyCharm and VSCode) | [https://github.com/run-ai/docs/tree/master/quickstart/python%2Bssh](https://github.com/run-ai/docs/tree/master/quickstart/python%2Bssh){target=_blank} |
 | [gcr.io/run-ai-demo/example-triton-client](https://gcr.io/run-ai-demo/example-triton-client){target=_blank} and  [gcr.io/run-ai-demo/example-triton-server](https://gcr.io/run-ai-demo/example-triton-server){target=_blank} |  Basic Inference | [https://github.com/run-ai/models/tree/main/models/triton](https://github.com/run-ai/models/tree/main/models/triton){target=_blank} |
+
+
+
+## Grids
+
+<div class="grid cards" markdown>
+
+- :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+
+    ---
+
+    Install [`mkdocs-material`](#) with [`pip`](#) and get up
+    and running in minutes
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+- :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+- :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+- :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+

@@ -28,6 +28,7 @@ extra_css:
  
 markdown_extensions:
 #  - markdown_include.include
+  
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -39,6 +40,7 @@ markdown_extensions:
   - pymdownx.details 
   - admonition
   - attr_list
+  - md_in_html
   - meta
   - tables
   - toc:
