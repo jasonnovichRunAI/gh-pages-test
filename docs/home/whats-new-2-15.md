@@ -12,10 +12,11 @@
 
     Use the *More* menu to download the CSV file. Select from the *Columns* menu to add more columns to the CSV file.
 
-NEW CONTENT FROM 2.14 FROM HERE
+IMPORTED CONTENT FROM 2.14 FROM HERE
 --8<--
 whats-new-2-14.md:4:27
 --8<--
+
 ## Improvements
 
 <!-- TODO RUN-9943/RUN-12176 Nodes - reflect the correct status of the node - add to nodes page the table from the TW ticket -->
@@ -31,7 +32,7 @@ whats-new-2-14.md:4:27
 <!-- RUN-7495/RUN11388 Support PSA / SCCs V2 \(security mechanism for pods on K8S/OCP\)-->
 
 <!-- RUN-9386 Metrics API: Expose predefined metrics-->
-§
+
 <!-- RUN-9924/RUN-9925  Granular GPU compute time-slicing / Strict GPU compute time-slicing -->
 
 <!-- RUN-9949 Container RUNtime Interface - No TW story as per ticket -->
@@ -93,9 +94,11 @@ whats-new-2-14.md:4:27
 <!-- Include from 2.14 -->
 
 <!-- TODO Adjust the whats new for 2.14 to add in the sections for New features and Improvements. Then include those in the appropriate sections for 2.15 after the primary ones are written up.
---8<-- "home/whats-new-2-14.md:4:69"
 -->
+IMPORTED CONTENT FROM HERE
+
+--8<-- "home/whats-new-2-14.md:29:62"
 
 ## Known and fixed issues by version
 
-TBD
+* [2.15.0](../bugfixes/fixes-2-15.md)
